@@ -1,7 +1,7 @@
 {
 	"name": "Node 10",
 	"dockerFile": "Dockerfile",
-  "appPort": [ 9000 ],
-  "workspaceFolder": "/workspace",
-	"workspaceMount": "source=/root/Projects/proj-node10,target=/workspace,type=bind,consistency=cached"
+  	"forwardPorts": [ 9000 ],
+	"workspaceFolder": "/proj-node10",
+	"workspaceMount": "source=/root/Projects/proj-node10,target=/proj-node10,type=bind,consistency=cached"
 }
